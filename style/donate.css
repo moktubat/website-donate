@@ -73,6 +73,35 @@ h2{
     font-weight: 700;
     font-size: 30px;
     margin-bottom: 60px;
+    padding: auto;
+    
+}
+
+.doller{
+    width: 135px;
+    height: 123px;
+    background: #FAFAFA;
+    border-radius: 5px;
+}
+
+.doller:hover{
+    color: #FF5959;
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    width: 135px;
+    height: 123px;
+}
+
+input[type="number"]{
+    border: none;
+    padding: 10px 25px;    
+}
+
+hr{
+    width: 765px;
+    border: 1px solid #DADADA;
+    margin: 0 25% 0 25%;
 }
 
 /* Donate plan scetion styles */
@@ -175,11 +204,14 @@ h3{
     margin: 60px 315px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
-.email-with-button input{
+#email{
     width: 275px;
     height: 43px;
+    margin: 0;
+    padding: 2px 15px;
     background: #D9D9D9;
     border-radius: 5px 0px 0px 5px;
 }
