@@ -66,31 +66,29 @@ h2{
 
 .amounts{
     display: flex;
-    gap: 50px;
     justify-content: center;
-    margin-top: 50px;
+    align-items: center;
+    gap: 20px;
+}
+.doller{
+    background-color: #ececec;
     color: #707070;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 5px;
     font-weight: 700;
     font-size: 30px;
-    margin-bottom: 60px;
-    padding: auto;
+    border: none;
+    padding: 40px 30px;
     
 }
 
-.doller{
-    width: 135px;
-    height: 123px;
-    background: #FAFAFA;
-    border-radius: 5px;
-}
-
 .doller:hover{
-    color: #FF5959;
+    background-color: #e1533da8;
+    color: #ff2600;
     background: #FFEEEE;
-    border: 2px solid #FF5959;
-    border-radius: 5px;
-    width: 135px;
-    height: 123px;
+    outline: 2px solid #E1523D;
+    cursor: pointer;
 }
 
 input[type="number"]{
